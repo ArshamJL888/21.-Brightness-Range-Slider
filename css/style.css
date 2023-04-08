@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-image: url("../images/city.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+    margin: 0;
+}
+
+
+.brightness-box {
+    width: 250px;
+    height: 35px;
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    top: 350px;
+    left: 700px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#brightness {
+    width: 200px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.fa {
+    margin-top: 10px;
+}
